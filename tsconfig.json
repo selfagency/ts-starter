@@ -1,0 +1,14 @@
+{
+  "include": ["src/**/*.ts"],
+  "compilerOptions": {
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "module": "amd",
+    "moduleResolution": "node",
+    "outDir": "dist",
+    "pretty": true,
+    "rootDir": "src",
+    "target": "ES2015",
+    "types": ["node", "jest"]
+  }
+}
